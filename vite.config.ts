@@ -7,8 +7,8 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  publicDir: "./static",
-  base: "./",
+  publicDir: "./public",
+  base: "/",
   css: {
     postcss: {
       plugins: [tailwind()],

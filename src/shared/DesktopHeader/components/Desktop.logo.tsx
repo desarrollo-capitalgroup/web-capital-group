@@ -3,7 +3,7 @@ export const DesktopLogo = () => {
     <div className="relative text-[13.7px] items-center caret-transparent flex float-left justify-start leading-[18.495px] max-w-full md:text-[15px] md:leading-[22.5px]">
       <div className="relative text-[13.7px] caret-transparent hidden basis-20 float-left leading-[0px] max-w-20 min-h-0 min-w-0 w-full md:text-[15px] md:block md:min-h-[auto] md:min-w-[auto]">
         <img
-          src="public/img/logo-2-capital-group.png"
+          src="/img/logo-2-capital-group.png"
           title="Capital Group recovery"
           sizes="80px"
           alt="Capital Group recovery"
