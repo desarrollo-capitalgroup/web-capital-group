@@ -1,8 +1,14 @@
+import { useEffect } from "react";
 import Map from "../../components/Map";
 import { useContactForm } from "../../hooks/useContactForm";
+import { Link } from "react-router-dom";
 
 export const Contacto = () => {
     const { formData, handleChange, submitForm, loading, success, error } = useContactForm();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="text-[13.7px] bg-stone-50 caret-transparent grow shrink-0 leading-[18.495px] md:text-[15px] md:leading-[22.5px]">
@@ -220,7 +226,7 @@ export const Contacto = () => {
                             <div className="relative text-[13.7px] box-border caret-transparent leading-[18.495px] break-words w-full my-[13.7px] scroll-my-[30px] md:text-[15px] md:leading-[22.5px] md:my-[15px] before:accent-auto before:caret-transparent before:text-neutral-500 before:table before:text-[13.7px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[18.495px] before:list-outside before:list-disc before:break-words before:pointer-events-auto before:text-start before:indent-[0px] before:normal-case before:visible before:border-separate before:font-source_sans_pro before:md:text-[15px] before:md:leading-[22.5px] after:accent-auto after:caret-transparent after:clear-both after:text-neutral-500 after:table after:text-[13.7px] after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[18.495px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:visible after:border-separate after:font-source_sans_pro after:md:text-[15px] after:md:leading-[22.5px]">
                             <div className="relative text-[13.7px] caret-transparent float-none leading-[0px] max-w-full break-words w-[73px] mx-auto md:text-[15px] md:float-left md:mx-0">
                                 <a
-                                href="https://www.capitalgrouprecovery.com/"
+                                href="https://www.capitalgrouprecovery.com.mx/"
                                 className="text-orange-500 text-[13.7px] caret-transparent break-words md:text-[15px] hover:text-orange-400 hover:underline hover:border-orange-400"
                                 >
                                 <picture className="relative text-[13.7px] caret-transparent block h-0 object-cover break-words w-full overflow-hidden pt-[100%] rounded-[50%] md:text-[15px]">
@@ -266,15 +272,15 @@ export const Contacto = () => {
                         </div>
                         <div className="relative text-[13.7px] box-border caret-transparent leading-[18.495px] break-words w-full mt-[13.7px] scroll-my-[30px] md:text-[15px] md:leading-[22.5px] md:mt-[15px]">
                         <div className="text-[13.7px] caret-transparent leading-[18.495px] break-words text-center md:text-[15px] md:leading-[22.5px]">
-                            <a
-                            href="/"
-                            title="Inicio"
-                            className="text-orange-500 text-[13.7px] items-center shadow-[rgb(235,129,19)_0px_0px_0px_2px_inset] box-border caret-transparent inline-flex justify-center leading-[18.495px] break-words w-full px-[12.33px] py-[4.11px] rounded-[2.74px] md:text-[15px] md:leading-[22.5px] md:px-[13.5px] md:py-[4.5px] md:rounded-[3px] hover:text-white hover:bg-orange-500 hover:border-white"
-                            >
-                            <div className="text-[13.7px] caret-transparent leading-[18.495px] min-w-px break-words md:text-[15px] md:leading-[22.5px]">
-                                AGENDA TU CITA{" "}
-                            </div>
-                            </a>
+                            <Link
+                                to="/"
+                                title="Inicio"
+                                className="text-orange-500 text-[13.7px] items-center shadow-[rgb(235,129,19)_0px_0px_0px_2px_inset] box-border caret-transparent inline-flex justify-center leading-[18.495px] break-words w-full px-[12.33px] py-[4.11px] rounded-[2.74px] md:text-[15px] md:leading-[22.5px] md:px-[13.5px] md:py-[4.5px] md:rounded-[3px] hover:text-white hover:bg-orange-500 hover:border-white"
+                                >
+                                <div className="text-[13.7px] caret-transparent leading-[18.495px] min-w-px break-words md:text-[15px] md:leading-[22.5px]">
+                                    AGENDA TU CITA{" "}
+                                </div>
+                            </Link>
                         </div>
                         </div>
                     </div>

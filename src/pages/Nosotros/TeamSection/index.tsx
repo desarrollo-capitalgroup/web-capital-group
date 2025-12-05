@@ -90,7 +90,7 @@ export const TeamSection = () => {
             />
           </div>
           <CTAButton
-            href="https://temp-dbfccddjkiaksvriohsb.webadorsite.com/"
+            href="/contacto"
             text="AGENDA TU CITA"
           />
         </div>
