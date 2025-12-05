@@ -1,6 +1,6 @@
 import { useState } from "react"
+import emailjs from "@emailjs/browser";
 
-const emailForward = 'support@capitalgrouprecovery.com.mx';
 
 export const useContactForm = () => {
     const [formData, setFormData] = useState({
@@ -29,28 +29,16 @@ export const useContactForm = () => {
         setError(false);
 
         try {
-            const res = await fetch(`https://formsubmit.co/${emailForward}`, {
-                method: 'POST',
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json",
-                },
-                body: JSON.stringify({
-                    'Nombre': formData.name,
-                    'Contacto': formData.contact,
-                    'Correo electrónico': formData.email,
-                    'Nombre de la empresa donde invirtió': formData.investCompany,
-                    'Monto aproximado de la inversión': formData.amountInvest,
-                    'Cuéntanos la historia': formData.summaryHistory,
-                    _subject: 'Nuevo Formulario Capital Group Recovery',
-                    _captcha: false,
-                    _template: 'table',
-                    _redirect: false
-                })
+            const body = {
+                title: 'Nuevo Formulario Capital Group Recovery',
+                ...formData
+            }
+
+            const res = await emailjs.send('service_fqp9gn3', 'template_xrafkrb', body, {
+                publicKey: 'Nz6FH8wTZMR5o_aTb'
             });
 
-            console.log('res', res)
-            if(!res.ok) throw new Error('Error enviando formulario');
+            if(res.status != 200) throw new Error('Error enviando formulario');
 
             setSuccess(true);
             setFormData({ name: '', email: '', contact: '', amountInvest: '', investCompany: '', summaryHistory: '' });
