@@ -192,14 +192,14 @@ export const HeroSection = () => {
                 </div>
                 <div className="relative text-[13.7px] box-border caret-transparent leading-[18.495px] break-words w-full scroll-my-[30px] md:text-[15px] md:leading-[22.5px]">
                   <div className="text-[13.7px] caret-transparent leading-[18.495px] min-w-[54.8px] break-words md:text-[15px] md:leading-[22.5px] md:min-w-[60px]">
-                    <h3 className="text-orange-500 text-lg font-bold caret-transparent leading-[19.8px] break-words mt-[14.4px] mb-[5.4px] md:text-[21px] md:leading-[23.1px] md:mt-[16.8px] md:mb-[6.3px]">
+                    <h3 className="text-orange-500 text-lg font-bold caret-transparent leading-[19.8px] break-words text-center mt-[14.4px] mb-[5.4px] md:text-[21px] md:leading-[23.1px] md:mt-[16.8px] md:mb-[6.3px]">
                       Investigación y análisis
                     </h3>
                   </div>
                 </div>
                 <div className="relative text-[13.7px] box-border caret-transparent leading-[18.495px] break-words w-full scroll-my-[30px] md:text-[15px] md:leading-[22.5px]">
                   <div className="text-[13.7px] caret-transparent leading-[18.495px] min-w-[54.8px] break-words md:text-[15px] md:leading-[22.5px] md:min-w-[60px]">
-                    <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words text-left mb-[5.48px] md:text-[15px] md:leading-[22.5px] md:mb-1.5">
+                    <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words text-center text-left mb-[5.48px] md:text-[15px] md:leading-[22.5px] md:mb-1.5">
                       Investigamos a fondo legal, jurídico y financiero a la
                       entidad captadora de dinero
                     </p>
