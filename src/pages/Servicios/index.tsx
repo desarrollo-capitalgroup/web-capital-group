@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import { CTAButton } from "./CTAButton";
+import useSEO from "../../hooks/useSEO";
 
 export const Servicios = () => {
+  useSEO({
+    title: 'Asesoría legal y financiera - Capital Group Recovery',
+    description: 'Servicios especializados en recuperación de cartera vencida, cobranza extrajudicial y negociación profesional.',
+    keywords: 'servicios de cobranza, recuperación extrajudicial, negociación de deudas',
+    url: 'https://www.capitalgrouprecovery.com.mx/nuestros-servicios'
+  });
+
   return (
     <div className="bg-white relative text-[13.7px] box-border caret-transparent leading-[18.495px] break-words w-full scroll-my-[30px] md:text-[15px] md:leading-[22.5px]">
       <div className="relative text-white text-[13.7px] bg-black box-border caret-transparent grid grid-cols-[[image_content]_minmax(0px,1fr)] grid-rows-[[image_content]_auto] leading-[18.495px] break-words w-full scroll-my-[30px] md:text-[15px] md:leading-[22.5px]">

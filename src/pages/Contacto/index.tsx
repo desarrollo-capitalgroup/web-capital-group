@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Map from "../../components/Map";
 import { useContactForm } from "../../hooks/useContactForm";
 import { Link } from "react-router-dom";
+import useSEO from "../../hooks/useSEO";
 
 export const Contacto = () => {
     const { formData, handleChange, submitForm, loading, success, error } = useContactForm();
@@ -9,6 +10,13 @@ export const Contacto = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    useSEO({
+        title: 'Contacto - Capital Group Recovery',
+        description: 'Contáctenos para una consulta gratuita sobre recuperación de cartera. Respondemos en 24 horas.',
+        keywords: 'contacto cobranza, consulta gratuita recuperación cartera',
+        url: 'https://www.capitalgrouprecovery.com.mx/contacto'
+    });
 
     return (
         <div className="text-[13.7px] bg-stone-50 caret-transparent grow shrink-0 leading-[18.495px] md:text-[15px] md:leading-[22.5px]">
