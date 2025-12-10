@@ -72,10 +72,10 @@ export const Servicios = () => {
                 </h1>
                 <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words md:text-[15px] md:leading-[22.5px]">
                   En Capital Group Recovery nos especializamos en realizar una
-                  consulta inicial sin costo , en la que analizamos una
+                  consulta inicial sin costo, en la que analizamos una
                   situación particular de cada uno de nuestros clientes. Esto
                   abarca la revisión de documentos pertinentes y la recopilación
-                  de los detalles del caso .
+                  de los detalles del caso.
                 </p>
               </div>
             </div>

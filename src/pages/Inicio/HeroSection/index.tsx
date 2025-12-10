@@ -103,7 +103,7 @@ export const HeroSection = () => {
                 <div className="relative text-[13.7px] box-border caret-transparent leading-[18.495px] break-words w-full scroll-my-[30px] md:text-[15px] md:leading-[22.5px]">
                   <div className="text-[13.7px] caret-transparent leading-[18.495px] min-w-[54.8px] break-words md:text-[15px] md:leading-[22.5px] md:min-w-[60px]">
                     <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words text-center mb-[5.48px] md:text-[15px] md:leading-[22.5px] md:mb-1.5">
-                      tienes el mejor departamento legal y financiero para la 
+                      tienes el mejor departamento legal y financiero
                     </p>
                     <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words mb-[5.48px] md:text-[15px] md:leading-[22.5px] md:mb-1.5">
                        
@@ -200,8 +200,8 @@ export const HeroSection = () => {
                 <div className="relative text-[13.7px] box-border caret-transparent leading-[18.495px] break-words w-full scroll-my-[30px] md:text-[15px] md:leading-[22.5px]">
                   <div className="text-[13.7px] caret-transparent leading-[18.495px] min-w-[54.8px] break-words md:text-[15px] md:leading-[22.5px] md:min-w-[60px]">
                     <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words text-left mb-[5.48px] md:text-[15px] md:leading-[22.5px] md:mb-1.5">
-                      Investigamos a fondo legal y jurídico y financiero a al
-                      entidad captadora de dinero 
+                      Investigamos a fondo legal, jurídico y financiero a la
+                      entidad captadora de dinero
                     </p>
                   </div>
                 </div>
@@ -254,7 +254,7 @@ export const HeroSection = () => {
                     <div className="text-[13.7px] caret-transparent leading-[18.495px] break-words px-[35px] py-5 md:text-[15px] md:leading-[22.5px]">
                       <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words mb-[5.48px] md:text-[15px] md:leading-[22.5px] md:mb-1.5">
                         El proceso de recuperación se basa en investigar
-                        mantener infromado y enterado de el proceso
+                        mantener informado y enterado de el proceso
                       </p>
                     </div>
                   </div>
@@ -273,7 +273,7 @@ export const HeroSection = () => {
                         Capital Group Recovery se destaca por su enfoque
                         transparente y eficiente en la resolución de problemas
                         financieros, garantizando resultados positivos para
-                        nuestros clientes eficases y legales.
+                        nuestros clientes eficaces y legales.
                       </p>
                     </div>
                   </div>

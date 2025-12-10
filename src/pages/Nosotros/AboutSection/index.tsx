@@ -20,9 +20,9 @@ export const AboutSection = () => {
                   Sobre Nosotros 
                 </h1>
                 <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words mb-[5.48px] md:text-[15px] md:leading-[22.5px] md:mb-1.5">
-                  Bienvenidos   a Capital Group Recovery.{" "}
+                  Bienvenidos a Capital Group Recovery.{" "}
                   <span className="text-[13.7px] caret-transparent leading-[18.495px] break-words md:text-[15px] md:leading-[22.5px]">
-                    somos un equipo de abogados especializados en la recuperación
+                    Somos un equipo de abogados especializados en la recuperación
                     de activos financieros perdidos en plataformas digitales.
                     Trabajamos de la mano con entidades regulatorias para
                     garantizar que nuestros clientes recuperen su dinero de manera
