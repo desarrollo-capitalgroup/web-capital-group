@@ -10,7 +10,7 @@ export const MobileContactButtons = () => {
         </span>
       </a>
       <a
-        href="https://wa.me/+447877820482?text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n"
+        href="https://wa.me/+447916083718?text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n"
         target="_blank"
         className="text-white items-center caret-transparent flex flex-col grow justify-center min-h-[auto] min-w-[50px] md:min-h-0 hover:text-stone-100 hover:bg-amber-600 hover:underline hover:border-stone-100"
       >

@@ -123,7 +123,7 @@ export const Servicios = () => {
                   colaboración directa con las principales entidades
                   regulatorias como  la{" "}
                   <span className="text-[13.7px] caret-transparent leading-[18.495px] break-words md:text-[15px] md:leading-[22.5px]">
-                    HMRC, FCA, ASIC , SFC, FSA  Y CySEC. Esta cooperación es
+                    HMRC, FTC, FCA, ASIC , SFC, FSA  Y CySEC. Esta cooperación es
                     fundamental para garantizar que se cumplan los
                     procedimientos legales correctos y se optimicen las
                     oportunidades y transparencia en la recuperación de fondos.
@@ -255,7 +255,7 @@ export const Servicios = () => {
                   <div className="text-[13.7px] caret-transparent leading-[18.495px] min-w-[54.8px] break-words md:text-[15px] md:leading-[22.5px] md:min-w-[60px]">
                     <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words text-center md:text-[15px] md:leading-[22.5px]">
                       <span className="text-[13.7px] caret-transparent leading-[18.495px] break-words md:text-[15px] md:leading-[22.5px]">
-                        Trabajamos directamente con autoridades como la HMRC, FCA,
+                        Trabajamos directamente con autoridades como la HMRC, FTC, FCA,
                         ASIC, SFC, FSA y CySEC para asegurar que se sigan los
                         protocolos adecuados.
                       </span>

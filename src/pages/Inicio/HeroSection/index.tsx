@@ -153,7 +153,7 @@ export const HeroSection = () => {
                 <div className="relative text-[13.7px] box-border caret-transparent leading-[18.495px] break-words w-full scroll-my-[30px] md:text-[15px] md:leading-[22.5px]">
                   <div className="text-[13.7px] caret-transparent leading-[18.495px] min-w-[54.8px] break-words md:text-[15px] md:leading-[22.5px] md:min-w-[60px]">
                     <p className="text-[13.7px] caret-transparent leading-[18.495px] break-words text-center mb-[5.48px] md:text-[15px] md:leading-[22.5px] md:mb-1.5">
-                      establecemos comunicación HMRC, FCA, ASIC , SFC, FSA Y CySEC
+                      establecemos comunicación HMRC, FTC, FCA, ASIC , SFC, FSA Y CySEC
                     </p>
                   </div>
                 </div>
